@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+     margin: auto;
+   
+   
+    
+}
+header { width: 100%;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+ 
+}
+.hero{ 
+width: 100%;
+  height: 100vh;
+  background:white
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: relative;
+}
+nav{
+  width: 85%;
+  margin: auto;
+  padding:20px 0 ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.logo{
+  width: 180px;
+  cursor: pointer;
+  border:white solid;
+  border-radius: 50%;
+  border-color:black;
+  border-style:groove;
+  box-shadow:  -15px 10px 12px black;
+  
+
+}
+nav ul li{
+  display: inline-block;
+  list-style:none;
+  margin: 10px 17px;
+  font-weight: 900;
+
+
+
+
+
+}
+ nav ul li  a {
+  text-decoration: none;
+  text-shadow: #606163;
+  color:black;
+  padding-bottom: 800px;
+  position: -80cm;
+  cursor: pointer;
+  border-radius: 8PX;
+
+  padding: 10px 18px;
+  text-decoration: none;
+  background-color:chartreuse;
+  display: inline-block;
+  border:2px black solid transparent;
+  border: black solid;
+  border-width: thin;
+  transition: all 0.4s case;
+  
+ 
+  
+}
+nav ul li a:hover{
+  color:#ff0033
+    
+}
+.btn{
+  background: blue;
+  border-radius: 8PX;
+  padding: 10px 18px;
+  text-decoration: none;
+  color: aliceblue;
+  display: inline-block;
+  border:2px solid transparent;
+  transition: all 0.4s case;
+  box-shadow:  -15px 10px 12px black;
+
+}
+.btn:hover{
+  background:white;
+  color: blue;
+  border: 1px solid blue ;
+  
+}
+main{
+  margin-left: 8%;
+  margin-top: 10%;
+  margin-bottom:7% ;
+  padding-right: 5%;
+  text-align:left;
+  position: relative;
+  top: -19cm;
+  left: 0cm;
+  
+}
+.info{
+font-size: 30px;
+  
+  color:black;
+  text-shadow: black;
+ 
+  
+
+}
+.info h3 span{
+  color:lime;
+}
+.info p span{
+  color:black;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
+text-align: center;
+
+  
+  
+  
+}
+.contact{
+  text-align: center;
+  border-radius: 12px;
+}
+footer{
+  position: relative;
+  top: -16cm;
+}
+.qwe .circle{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+  float: right;
+  margin-right: 80px;
+  margin-top: 100px;
+  background: #ff0033;
+}
+  .circle1{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: auto;
+  background: #ff0033;
+  bottom: 0;
+  margin-left: 60px;
+  margin-bottom: -30px;
+  position: relative;
+
+
+
+
+
+}
+.form{
+  
+  width: 250px;
+  height: 300px;
+  background: linear-gradient(to top ,black);
+  position: absolute;
+  top: -20px;
+  left: 870px;
+  border-radius: 10px;
+  padding: 25px;
+  border: black solid;
+  background-color:indigo;
+  margin-left: 10px;
+  box-shadow: -15px 10px 12px black;
+}
+.form h2{
+  width: 220px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  color:black;
+  font-size: 22px;
+  background-color:chartreuse;
+  border-radius: 10px;
+  margin:2px ;
+  padding: 8px;
+}
+.form input{
+
+  width: 240px;
+  height: 35px;
+  background: transparent;
+  border-bottom: 1px solid;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: aliceblue;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  font-family: sans-serif;
+}
+.form input :focus{
+  outline: none;
+
+}
+  
+::placeholder{
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btrn{
+  width: 240px;
+  height: 40px;
+  background:blue;
+  border:none;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+.btrn:hover{
+  background: white;
+  color:blue;
+}
+.btrn a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.info{
+  text-align: left;
+
+}
+.iii p{ 
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 14px ;
+  border: black solid;
+  width: 18%;
+  height: 8%;
+ margin-left: 0cm;
+ padding-top: 15px;
+ padding-left:21px ;
+  padding-right:21px ;
+  padding-bottom:15px;
+  text-align:center ;
+
+  font-weight: bold;
+  background-color: chocolate;
+  box-shadow: -15px 10px 12px black;
+}
+.iii p:hover{
+  color: lawngreen;
+  cursor: pointer;
+}
+.info h4{
+  color:darkred;
+}
+.info h3 p{
+  color:orangered;
+ 
+}
+body{
+  background-image: url('img\ b.jpg');
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 109vh;
+
+}
+.info h3{
+  text-shadow: -7px -5px 10px white;
+}
+div.aboutme{
+  border:black solid;
+  border-style: double;
+  text-align: center;
+  margin: 20%;
+  height: 450px;
+  width:500px ;
+ background-color: aqua;
+ padding-left: 100px;
+ padding-right: 100px;
+padding-top: 100px;
+
+}
+  
+
